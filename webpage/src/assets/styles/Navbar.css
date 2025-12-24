@@ -1,0 +1,49 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(20, 30, 48, 0.95),
+    rgba(36, 59, 85, 0.95)
+  );
+
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 50px;
+  z-index: 1000;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* LOGO */
+.navbar .logo {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #4facfe;
+}
+
+/* USER */
+.navbar .user {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* NAVBAR BUTTON (logout later) */
+.navbar button {
+  margin-left: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: #fff;
+}
